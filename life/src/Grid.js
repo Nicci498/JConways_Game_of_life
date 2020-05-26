@@ -85,7 +85,7 @@ function Grid() {
           setGrid(initialState);
         }}
       >
-        Clear
+        Reset
       </button>
       </div>
       <div className = 'spacer'>

@@ -1,10 +1,10 @@
 import React from 'react';
 import App from './App';
 
-let showGrid = false;
+
 function Pic(){
     return(
-        <div onClick ={() =>{ showGrid = true}} className='pic'>
+        <div className='pic'>
             <img src='https://media.wired.com/photos/595481de8e8cc150fa8ec1f3/191:100/pass/Conway_1k.jpg' alt='portrait of James Conway' copyright='PRINCETON UNIVERSITY, OFFICE OF COMMUNICATIONS/DENISE APPLEWHITE'></img>
             <h3>1937 - 2020</h3>
             <p className = 'quote'><span>His FRS nomination, in 1981, reads: </span>

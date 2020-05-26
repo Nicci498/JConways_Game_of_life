@@ -3,8 +3,9 @@ import React from 'react';
 function Header(){
     return(
         <header className ='header'>
-            <h1>James Conway <br/><span>and</span><br/>The Game of Life</h1>
-            
+            <h1 className='name'>John Conway</h1>
+            <p>and</p>
+            <h1>The Game of Life</h1>
         </header>
     )
 }
