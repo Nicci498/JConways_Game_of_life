@@ -1,17 +1,7 @@
 .App {
   text-align: center;
   font-size: 62.5%;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-header {
@@ -25,18 +15,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .app{
   background-color: #0F292F;
   height: 105%;
@@ -55,13 +33,17 @@
   width: 80%;
   margin-left: 10%;
   font-family: 'Abril Fatface', cursive;
+  line-height: 0.7;
 }
 header h1{
-  font-size: 3rem;
+  font-size: 3.2rem;
+  margin: 0 auto;
 }
-header h1 span{
-  margin-left: 40%;
-  font-size: 1.8rem;
+header .name{
+  margin-top: 5%;
+}
+header p{
+  font-size: 2.6rem;
 }
 .pic{
   display: flex;
@@ -117,4 +99,12 @@ header h1 span{
   flex-direction: column;
   margin: 0 auto;
   color: #14A098;
+}
+.bio h3{
+  font-size: 1.8rem;
+  color: #CB2D6F;
+  font-family:  'Merriweather', sans-serif;
+}
+.bio li{
+  line-height: 1.6rem;
 }

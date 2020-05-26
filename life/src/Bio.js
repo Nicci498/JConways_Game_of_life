@@ -3,13 +3,14 @@ import React from 'react';
 function Bio(){
     return(
         <div className = 'bio'>
+        <h3>About Mr. Conway: </h3>
         <p>John Horton Conway born December 26 1937 was an English mathematician active in the theory of finite groups, knot theory, number theory, combinatorial game theory and coding theory. He also made contributions to many branches of recreational mathematics, most notably the invention of the cellular automaton called the Game of Life (shown above).</p>
 
         <p>Born and raised in Liverpool, Conway spent the first half of his career at the University of Cambridge before moving to the United States, where he held the John von Neumann Professorship at Princeton University for the rest of his career. On 11 April 2020, at age 82, he died of complications from COVID-19.</p>
 
         <p>Conway received the Berwick Prize in 1971, was elected a Fellow of the Royal Society in 1981,became a fellow of the American Academy of Arts and Sciences in 1992, was the first recipient of the Pólya Prize, he won the Nemmers Prize in Mathematics in 1998 and received the Leroy P. Steele Prize for Mathematical Exposition of the American Mathematical Society in 2000. In 2001 he was awarded an honorary degree from the University of Liverpool. In 2017 Conway was given honorary membership of the British Mathematical Association.</p>
 
-        <h3>Publications</h3>
+        <h3>Publications:</h3>
         <ul>
        <li> 1971 – Regular algebra and finite machines. Chapman and Hall, London, 1971, Series: Chapman and Hall mathematics series, ISBN 0412106205.</li>
        <li>1976 – On numbers and games. Academic Press, New York, 1976, Series: L.M.S. monographs, 6, ISBN 0121863506.</li>
