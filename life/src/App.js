@@ -8,18 +8,11 @@ import Pic from './Pic.js';
 
 function App() {
 
-  let showGrid = true;
  
   return (
     <div className = 'app'>
       <Header />
-      <div className="top">
-        {(!showGrid)?(
-        <Pic />
-        ):(  
-        <Grid />  
-        )}
-      </div>
+      <Grid />  
       <Bio />
     </div>
   );
