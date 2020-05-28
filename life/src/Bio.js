@@ -3,6 +3,13 @@ import React from 'react';
 function Bio(){
     return(
         <div className = 'bio'>
+        <h3>Rules of the Game</h3>
+        <ol>
+            <li>If a cell has more than three neighbors, it dies. (overpopulation)</li>
+            <li>If a cell has less than two neighbors it also dies. (underpopulation)</li>
+            <li>If a dead cell has exactly 3 live cell neighbors, it becomes a live cell as well. (reproduction)</li>
+            <li>If a cell has exactly two or three live neighbors, it survives.</li>
+        </ol>
         <h3>About Mr. Conway </h3>
         <p>John Horton Conway born December 26 1937 was an English mathematician active in the theory of finite groups, knot theory, number theory, combinatorial game theory and coding theory. He also made contributions to many branches of recreational mathematics, most notably the invention of the cellular automaton called the Game of Life (shown above).</p>
 
