@@ -24,6 +24,8 @@ function initialState() {
 function Grid() {
   const [grid, setGrid] = useState(initialState);
   const [running, setrunning] = useState(false);
+  const [generation, setGeneration] = useState(0);
+  const [sum, setSum] = useState(0);
   const runningRef = useRef(running);
   runningRef.current = running;
   const runSim = useCallback(() => {
@@ -31,6 +33,8 @@ function Grid() {
       return;
     }
     setGrid((g) => {
+      let validGrid = false;
+      validGrid = false;
       return produce(g, (gridCopy) => {
         for (let i = 0; i < numRows; i++) {
           for (let k = 0; k < numCols; k++) {
@@ -43,12 +47,22 @@ function Grid() {
               }
             });
             if (neighbors < 2 || neighbors > 3) {
+              validGrid = true;
               gridCopy[i][k] = 0;
             } else if (g[i][k] === 0 && neighbors === 3) {
+              validGrid = true;
               gridCopy[i][k] = 1;
             }
           }
         }
+        if(validGrid) {
+          setGeneration((num) => (num + 1));
+        }
+        setSum(
+          gridCopy.flat().reduce((acc,cv) => {
+            return acc + cv
+          })
+        )
       });
     });
     setTimeout(runSim, 300);
@@ -117,6 +131,8 @@ function Grid() {
           ))
         )}
       </div>
+        <p className='info'> Generation: {generation}</p>
+        <p className='info'> Polulation: {sum}</p>
     </div>
   );
 }
