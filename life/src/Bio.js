@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 function Bio(){
     return(
-        <div className = 'bio'>
+    <div className = 'bio'>
         <h3>Rules of the Game</h3>
         <ol>
             <li>If a cell has more than three neighbors, it dies. (overpopulation)</li>
@@ -21,18 +21,18 @@ function Bio(){
         </div>
         <h3>Publications</h3>
         <ul>
-       <li> 1971 – Regular algebra and finite machines. Chapman and Hall, London, 1971, Series: Chapman and Hall mathematics series, ISBN 0412106205.</li>
-       <li>1976 – On numbers and games. Academic Press, New York, 1976, Series: L.M.S. monographs, 6, ISBN 0121863506.</li>
-        <li>1979 – On the Distribution of Values of Angles Determined by Coplanar Points (with Paul Erdős, Michael Guy, and H. T. Croft). Journal of the London Mathematical Society, vol. II, series 19, pp. 137–143.</li>
-        <li>1979 – Monstrous Moonshine (with Simon P. Norton).[50] Bulletin of the London Mathematical Society, vol. 11, issue 2, pp. 308–339.</li>
-        <li>1982 – Winning Ways for your Mathematical Plays (with Richard K. Guy and Elwyn Berlekamp). Academic Press, ISBN 0120911507.</li>
-        <li>1985 – Atlas of finite groups (with Robert Turner Curtis, Simon Phillips Norton, Richard A. Parker, and Robert Arnott Wilson). Clarendon Press, New York, Oxford University Press, 1985, ISBN 0198531990.</li>
-        <li>1988 – Sphere Packings, Lattices, and Groups[51] (with Neil Sloane). Springer-Verlag, New York, Series: Grundlehren der mathematischen Wissenschaften, 290, ISBN 9780387966175.</li>
-        <li>1995 – Minimal-Energy Clusters of Hard Spheres (with Neil Sloane, R. H. Hardin, and Tom Duff). Discrete & Computational Geometry, vol. 14, no. 3, pp. 237–259.</li>
-        <li>1996 – The Book of Numbers (with Richard K. Guy). Copernicus, New York, 1996, ISBN 0614971667.</li>
-        <li>1997 – The Sensual (quadratic) Form (with Francis Yein Chei Fung). Mathematical Association of America, Washington, DC, 1997, Series: Carus mathematical monographs, no. 26, ISBN 1614440255.</li>
-        <li>2002 – On Quaternions and Octonions (with Derek A. Smith). A. K. Peters, Natick, MA, 2002, ISBN 1568811349.</li>
-        <li>2008 – The Symmetries of Things (with Heidi Burgiel and Chaim Goodman-Strauss). A. K. Peters, Wellesley, MA, 2008, ISBN 1568812205.</li>
+            <li> 1971 – Regular algebra and finite machines. Chapman and Hall, London, 1971, Series: Chapman and Hall mathematics series, ISBN 0412106205.</li>
+            <li>1976 – On numbers and games. Academic Press, New York, 1976, Series: L.M.S. monographs, 6, ISBN 0121863506.</li>
+            <li>1979 – On the Distribution of Values of Angles Determined by Coplanar Points (with Paul Erdős, Michael Guy, and H. T. Croft). Journal of the London Mathematical Society, vol. II, series 19, pp. 137–143.</li>
+            <li>1979 – Monstrous Moonshine (with Simon P. Norton).[50] Bulletin of the London Mathematical Society, vol. 11, issue 2, pp. 308–339.</li>
+            <li>1982 – Winning Ways for your Mathematical Plays (with Richard K. Guy and Elwyn Berlekamp). Academic Press, ISBN 0120911507.</li>
+            <li>1985 – Atlas of finite groups (with Robert Turner Curtis, Simon Phillips Norton, Richard A. Parker, and Robert Arnott Wilson). Clarendon Press, New York, Oxford University Press, 1985, ISBN 0198531990.</li>
+            <li>1988 – Sphere Packings, Lattices, and Groups[51] (with Neil Sloane). Springer-Verlag, New York, Series: Grundlehren der mathematischen Wissenschaften, 290, ISBN 9780387966175.</li>
+            <li>1995 – Minimal-Energy Clusters of Hard Spheres (with Neil Sloane, R. H. Hardin, and Tom Duff). Discrete & Computational Geometry, vol. 14, no. 3, pp. 237–259.</li>
+            <li>1996 – The Book of Numbers (with Richard K. Guy). Copernicus, New York, 1996, ISBN 0614971667.</li>
+            <li>1997 – The Sensual (quadratic) Form (with Francis Yein Chei Fung). Mathematical Association of America, Washington, DC, 1997, Series: Carus mathematical monographs, no. 26, ISBN 1614440255.</li>
+            <li>2002 – On Quaternions and Octonions (with Derek A. Smith). A. K. Peters, Natick, MA, 2002, ISBN 1568811349.</li>
+            <li>2008 – The Symmetries of Things (with Heidi Burgiel and Chaim Goodman-Strauss). A. K. Peters, Wellesley, MA, 2008, ISBN 1568812205.</li>
         </ul>
         <div className = 'spacer'>
 
