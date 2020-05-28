@@ -97,6 +97,8 @@ function Grid() {
       <button
         onClick={() => {
           setGrid(initialState);
+          setGeneration(0);
+          setSum(0);
         }}
       >
         Reset
@@ -116,12 +118,12 @@ function Grid() {
             <div
               key={`${i}-${k}`}
               onClick={() => {
-                const newGrid = produce(grid, (gridCopy) => {
+                const newGrid = produce(grid, (gridCopy) => { //here we have immer producing a copy of the grid to 'dbl buffer'
                   gridCopy[i][k] = grid[i][k] ? 0 : 1;
                 });
                 setGrid(newGrid);
               }}
-              style={{
+              style={{ //live cells
                 width: 14,
                 height: 15,
                 backgroundColor: grid[i][k] ? '#CB2D6F' : undefined,
