@@ -11,15 +11,15 @@ It is possible to build a pattern that acts like a finite-state machine connecte
 
 #### React
 #### Immer
-*  Immer works by writing producers
-`
-import produce from "immer"
+Immer works by writing producers
+
+`import produce from "immer"
 
 const nextState = produce(currentState, draft => {
   // empty function
 })
 
-console.log(nextState === currentState) // true
-`
+console.log(nextState === currentState) // true`
+
 The produce function takes two arguments, currentState and a producer function. Current state determines the starting point, and the producer tells us what needs to happen to it. The producer function receives one argument, the draft, which is a proxy to the current state you passed in. Any modification you make to the draft will be recorded and used to produce nextState, currentState will be untouched during this process. With Immer, we only need to reason about the changes we want to make relatively to the current state. Without needing to take the effort to actually produce the next state.
 > https://hackernoon.com/introducing-immer-immutability-the-easy-way-9d73d8f71cb3
