@@ -29,7 +29,7 @@ function Grid() {
   const timeRef = useRef(300);
   const numRows = 25;
   const numCols = 70;
-  const colors = ["#B39BC8", "#F172A1", "#CB2D6F"]
+  const colors = ["#B39BC8", "#F172A1", "#CB2D6F", "#E64398", "#AC3B61", "#EE4C7C", "#9A1750"]
 
   function initialState() {
     const rows = [];
@@ -127,11 +127,11 @@ function Grid() {
         }}>Go Fast</button>
         <button 
         onClick={() =>{
-          timeRef.current = 500
+          timeRef.current = 300
         }}>Go Normal</button>
         <button 
         onClick={() =>{
-          timeRef.current = 300
+          timeRef.current = 800
         }}>Go Slow</button>
       </div>
       <div className = 'grid'
