@@ -79,7 +79,7 @@ function Grid() {
     });
     setTimeout(runSim, timeRef.current);
   }, [timeRef.current]);
-  console.log(timeRef.current)
+  
   return (
     <div className = 'container'>
         <div className = 'buttons'>
